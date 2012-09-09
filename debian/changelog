@@ -1,0 +1,5 @@
+python-django-sendfile (0.3.0-0) testing; urgency=high
+
+  * Initial Debian package
+
+ -- Bruno Clermont <bruno.clermont@gmail.com>  Sun,  9 Sep 2012 15:13:00 +0100

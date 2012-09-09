@@ -1,0 +1,14 @@
+Source: python-django-sendfile
+Section: python
+Priority: optional
+Maintainer: Bruno Clermont <bruno.clermont@gmail.com>
+Homepage: https://github.com/bclermont/django-sendfile
+Bugs: https://github.com/bclermont/django-sendfile/issues
+Build-Depends: debhelper, python-support
+
+Package: python-django-sendfile
+Architecture: all
+Depends: ${python:Depends}, python-support, python-django
+Provides: ${python:Provides}
+Description: This is a wrapper around web-server specific methods for sending
+ files to web clients.
